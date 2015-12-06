@@ -8,9 +8,7 @@ import Darwin
 #endif
 
 let client = GetClient()
-
-let response = client.fetch("httpbin.org/get?sadasd=sadasd&sdsadasd=sadasdasd")
-
+let response = client.fetch("httpbin.org/get?foo=bar&baz=bang")
 print(response)
 
 
